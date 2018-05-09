@@ -14,7 +14,8 @@ class CoreMongo(object):
         # 连接数据库
         db = client.quantaxis
         # 获取集合
-        indexDay = db.stock_day
+        #indexDay = db.stock_day
+        indexDay = db.index_day
         return indexDay 
 #        rowNum = 0
 #        values = ""
